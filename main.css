@@ -1,0 +1,38 @@
+body{
+   margin: 0;
+   padding: 0; 
+   background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    color: teal;
+}
+  
+.container {
+    width: 50%;
+    margin: auto;
+}
+input, label, p{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+input{
+    margin-bottom:0.5rem;
+    width: 50%;
+}
+.btn-calculate{
+    display: block;
+    margin-top: 1rem;
+    margin:auto;
+    padding: 0.8rem;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    background-color: #1be334;
+}
+.output{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: larger;
+}
