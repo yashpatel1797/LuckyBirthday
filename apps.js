@@ -9,13 +9,19 @@ function checkLuck(sum, luckyNumber){
     showMessage("Your birthday is not lucky");
   }
 }
+
 function showMessage(msg){
   output.innerText = msg;
 }
 function luckCalculate(){
   const dob = dateOfBirth.value;
   const sum = calculateSum(dob);
-  checkLuck(sum, luckyNumber.value);
+  if(luckyNumber.value > 0){
+    checkLuck(sum, luckyNumber.value);
+  } else{
+    showMessage("Enter Positive value.")
+  }
+  
 }
 
 function calculateSum(dob){
